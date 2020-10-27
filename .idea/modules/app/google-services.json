@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "75152966929",
+    "firebase_url": "https://immigrant-base.firebaseio.com",
+    "project_id": "immigrant-base",
+    "storage_bucket": "immigrant-base.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75152966929:android:67998bd67635298e61b8b0",
+        "android_client_info": {
+          "package_name": "com.pskovhack.immigrantsocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75152966929-1rgd98m8edvi3ti5tt4n74ibajlsh611.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pskovhack.immigrantsocial",
+            "certificate_hash": "05f1801c5497861d5f2feab8acd054f692c5511c"
+          }
+        },
+        {
+          "client_id": "75152966929-m2sdlprqn7urpfd8dchn34upe5ks5lhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2TX--cfE6N1mb9nrbt3VnvIVS3oL5QU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75152966929-m2sdlprqn7urpfd8dchn34upe5ks5lhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

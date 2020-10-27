@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/orange"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <RelativeLayout
+            android:id="@+id/Linear_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_logo_black"
+            />
+        <ImageButton
+            android:id="@+id/out"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_out"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/ic_logo"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ИММИГРАНТ"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:fontFamily="@font/bebas_neue_bold"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_black_low"
+        android:text="Регистрация"
+        android:textSize="25dp"
+        android:textColor="@color/orange"
+        android:fontFamily="@font/montserrat_bold"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:paddingRight="30dp"
+        android:paddingEnd="30dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:layout_marginTop="20dp"
+        android:textSize="35dp"
+        android:text="Войти в систему"
+        android:textColor="@color/black_low"
+        android:fontFamily="@font/bebas_neue_regular"
+        style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout>

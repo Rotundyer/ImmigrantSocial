@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ВЫ УВЕРЕНЫ, ЧТО ХОТИТЕ ВЫЙТИ?"
+            android:textColor="@color/black_low"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bebas_neue_bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="@color/orange">
+
+            <Button
+                android:id="@+id/yes"
+                android:layout_margin="1dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/black_low"
+                android:text="ДА"
+                android:textColor="@color/orange"
+                android:textSize="35dp"
+                android:fontFamily="@font/bebas_neue_bold"/>
+
+            <Button
+                android:id="@+id/no"
+                android:layout_margin="1dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/black_low"
+                android:text="НЕТ"
+                android:textColor="@color/orange"
+                android:textSize="35dp"
+                android:fontFamily="@font/bebas_neue_bold"/>
+        </LinearLayout>
+
+
+</LinearLayout>

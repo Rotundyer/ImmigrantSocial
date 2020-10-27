@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/orange"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <RelativeLayout
+            android:id="@+id/Linear_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_logo_black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:text="ВОССТАНОВЛЕНИЕ"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black_low"
+                android:textSize="25dp"
+                android:gravity="center_vertical"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/log_email"
+        android:fontFamily="@font/montserrat_normal"
+        app:backgroundTint="@color/black_low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите Ваш Email"
+        android:textColorHint="@color/black_low"
+        android:textColor="@color/black_low"
+        android:textSize="20dp"
+        android:textCursorDrawable="@drawable/black_cursor"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="На Ваш электронный адрес было выслано сообщение с инструкциями для восстановлению пароля."
+        android:textColor="@color/black_low"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/email_button_next"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_black_low"
+        android:text="Готово"
+        android:textSize="25dp"
+        android:textColor="@color/orange"
+        android:fontFamily="@font/montserrat_bold"
+        android:paddingLeft="60dp"
+        android:paddingStart="60dp"
+        android:paddingRight="60dp"
+        android:paddingEnd="60dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
